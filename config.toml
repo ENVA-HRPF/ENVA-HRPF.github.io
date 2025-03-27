@@ -1,4 +1,4 @@
-baseURL = "https://github.com/ENVA-HRPF/ENVA-HRPF.github.io/dev-wiki"
+baseURL = "https://ENVA-HRPF.github.io"
 title = "DevTeam Wiki"
 theme = "hugo-geekdoc"
 
