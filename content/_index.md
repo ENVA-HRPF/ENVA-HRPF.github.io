@@ -74,10 +74,6 @@ class UserService {
 }
 ```
 
-{{% notice warning %}}
-Never commit code with console.log statements except for intentional error logging!
-{{% /notice %}}
-
 ### Python Style
 
 * Follow PEP 8
