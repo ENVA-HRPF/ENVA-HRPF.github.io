@@ -33,8 +33,8 @@ geekdocLogo = "images/logo.jpg"
 geekdocMenuBundle = false
 
 # Theme color
-geekdocOverrideDefaultValue = true
-geekdocOverrideDefaultValue = false
+#geekdocOverrideDefaultValue = true
+#geekdocOverrideDefaultValue = false
 
 # Single-page mode - hide navigation and use only ToC
 geekdocMenuLevel = 0
