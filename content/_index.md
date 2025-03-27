@@ -171,10 +171,6 @@ feat(auth): implement JWT authentication
 Resolves: #123
 ```
 
-{{% notice tip %}}
-Keep your commit messages clear and descriptive. They are part of the project documentation!
-{{% /notice %}}
-
 ## Code Review Process
 
 ### Why We Review Code
@@ -195,10 +191,6 @@ Keep your commit messages clear and descriptive. They are part of the project do
 - [ ] No security vulnerabilities
 - [ ] No performance issues
 
-{{% notice note %}}
-Code reviews should focus on the code, not the person. Be kind and respectful in your feedback.
-{{% /notice %}}
-
 ### Review Etiquette
 
 #### For Reviewers
@@ -213,7 +205,3 @@ Code reviews should focus on the code, not the person. Be kind and respectful in
 * Explain your approach when necessary
 * Be open to alternative solutions
 * Say "thank you" for helpful feedback
-
-{{% notice important %}}
-Security issues must be addressed before a PR can be approved.
-{{% /notice %}}
