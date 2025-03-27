@@ -1,0 +1,40 @@
+baseURL = "https://github.com/ENVA-HRPF/ENVA-HRPF.github.io/dev-wiki"
+title = "DevTeam Wiki"
+theme = "hugo-geekdoc"
+
+# Required for the Geekdoc theme
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+disablePathToLower = true
+enableGitInfo = true
+
+# Language settings
+defaultContentLanguage = "en"
+[languages.en]
+languageName = "English"
+contentDir = "content"
+weight = 10
+
+# Geekdoc required settings
+[markup]
+[markup.goldmark.renderer]
+# Allow HTML in markdown
+unsafe = true
+[markup.tableOfContents]
+startLevel = 1
+endLevel = 9
+
+# Geekdoc theme settings
+[params]
+# (Optional) Set a site logo
+geekdocLogo = "images/logo.jpg"
+
+# Only show one level in the menu
+geekdocMenuBundle = false
+
+# Theme color
+geekdocOverrideDefaultValue = true
+geekdocOverrideDefaultValue = false
+
+# Single-page mode - hide navigation and use only ToC
+geekdocMenuLevel = 0
