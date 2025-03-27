@@ -1,29 +1,21 @@
-name: Deploy Hugo Site to GitHub Pages
+name: GitHub Pages
 
 on:
   push:
-    branches:
-      - master  # Set branch to deploy from
-
-permissions: write-all
+    branches: [main]
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
-          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+          submodules: recursive
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: 'latest'
-          extended: true    # Required for Sass/SCSS support
-
-      - name: Setup Theme
-        run: |
-          git clone https://github.com/thegeeklab/hugo-geekdoc.git themes/hugo-geekdoc
 
       - name: Build
         run: hugo --minify
